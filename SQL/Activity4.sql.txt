@@ -1,0 +1,5 @@
+--Activity 4 To add a new column to salesman 
+ALTER table salesman ADD grade int;
+UPDATE salesman set grade=100 ;
+DESCRIBE salesman;
+SELECT * salesman;

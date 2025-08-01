@@ -1,0 +1,9 @@
+--Activity 5 To modify/update values in the salesman table 
+--Update the grade score of salesmen from Rome to 200.
+    UPDATE salesman set grade=200 WHERE salesman_city='Rome';
+--Update the grade score of James Hoog to 300.
+     UPDATE salesman set grade=300 WHERE salesman_name='James Hoog';
+--Update the name McLyon to Pierre.
+     UPDATE salesman set salesman_name='Pierre' WHERE salesman_name='McLyon';
+--To display all rows 
+SELECT * FROM salesman;
