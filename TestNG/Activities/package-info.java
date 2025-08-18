@@ -1,1 +1,1 @@
-package Activities;
+package suiteExample;
