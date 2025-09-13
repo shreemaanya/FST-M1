@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="activities" thread-count="4" parallel="classes"> <!-- Test Suite -->
+
+	<groups> <!-- Groups Control -->
+        <run>
+			<include name="HeaderTests" />
+        </run>
+    </groups>
+    
+    <test name="testngTest"> 
+    <parameter name="username" value="admin" />
+    <parameter name="password" value="password" />
+        <classes>
+			<class name="seleniumproject.projectactivity1" />
+           
+            
+        </classes>
+    </test>
+</suite>
+
+
