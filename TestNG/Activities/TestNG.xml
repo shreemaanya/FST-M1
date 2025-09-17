@@ -14,13 +14,16 @@
         <classes>
 			<class name="activities.activity1" />
             <class name="activities.activity2" />
+			<class name="activities.activity3" />
             <class name="activities.Activity4DemoOne" />
             <class name="activities.Activity4DemoTwo" />
-             <class name="activities.Activity5" />
-              <class name="activities.Activity6" />
+            <class name="activities.Activity5" />
+            <class name="activities.Activity6" />
+			<class name="activities.Activity7" />
             
         </classes>
     </test>
 </suite>
+
 
 
